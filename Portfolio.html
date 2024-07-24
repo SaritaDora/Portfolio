@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Portfolio</title>
+        <link rel="stylesheet" href="Portfolio.css">
+        <script src="https://kit.fontawesome.com/fd751fe6c3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hii, I'm <span>Sarita Dora</span> <br> from Odisha</h1>
+                </div>
+            </div>
+        </div>
+        <!-- ----------------about---------------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/WhatsApp Image 2024-07-24 at 10.25.45_c8d20077.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-tilte">About me</h1>
+                        <p>This will show my skill and education</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>HTML</span><br>Designing a web app</li>
+                                <li><span>CSS</span><br>Designing a web app</li>
+                                <li><span>Javascript</span><br>Designing a web app</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024-current</span><br>Pursuing MCA at IGIT,Sarang</li>
+                                <li><span>2023</span><br>Graduated from Gangadhar Meher University,Sambalpur</li>
+                                <li><span>2019</span><br>HSC from Vedic College,Sambalpur</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------Portfolio ------------- -->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">
+                    My Work
+                </h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/WhatsApp Image 2024-07-24 at 11.14.57_75421092.jpg">
+                        <div class="layer">
+                            <h3>To-Do List</h3>
+                            <p>This will show a TO-Do app that enables a user to add daily tasks.</p>
+                            <a href="#"></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/WhatsApp Image 2024-07-24 at 10.35.15_7a33a6bf.jpg">
+                        <div class="layer">
+                            <h3>Portfolio</h3>
+                            <p>This shows create a personal portfolio with the basic skills in CSS, HTML and Javascript.</p>
+                            <a href="#"></a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+         </div>
+         
+         <!------------- Contact ---------------->
+         <div id="resume">
+            <button class="download-btn">
+                <span class="text">See my resume</span>
+            </button>
+            <script src="Portfolio.js"></script>
+         </div>
+    </body>
+
+</html>
